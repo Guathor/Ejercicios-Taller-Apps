@@ -1,0 +1,80 @@
+/*  Medidas del borde */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-login {
+  width: 420px;
+  padding: 40px 40px;
+  background: #F2FCFF;
+  border: 2px solid #C3F1FF;
+  border-radius: 20px;
+}
+
+.caja-login h1 {
+ text-align: center;
+ color: darkturquoise;
+}
+
+.formulario-login {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  
+  ;
+}
+
+.formulario-login small {
+  text-align: center;
+}
+
+.formulario-login input {
+  height: 34px;
+  border: 3px solid #C3F1FF;
+  border-radius: 20px ;
+}
+
+.login{
+  background: turquoise;
+  color: white;
+
+}
+
+
+/* Efecto al pasar encima el mouse */
+.formulario-login button:hover {
+  cursor: pointer;
+  background: #469F85;
+}
+
+.formulario-login small {
+  position: relative;
+  color: gray;
+  right: 0px;
+  
+}
+
+/* Color de texto de ayuda */
+.formulario-login input::placeholder {
+  color: #5AD2AE;
+  opacity: 1;
+  text-align: center;
+  color: darkturquoise;
+}
