@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+.cuerpo{
+    position: absolute;
+    margin: 0;
+    display: grid;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.box {
+    position: relative;
+    border: 5px solid #FF0000;
+    width: 1440px;
+    height: 1024px;
+    grid-template-columns: 225px 790px;
+    left: 125px;
+    
+}
+
+.box-barra {
+    position: relative;
+    border: 5px solid #B10FCB;
+    height: 225px;
+    width: 1432px;
+    right: 1px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 74px;
+
+    color: #000000;
+    text-align: center;
+ 
+}
+
+.box2 {
+    position: relative;
+    width: 1430px;
+    height: 789px;
+
+    background: #FFFFFF;
+    border: 5px solid #74E6FF;
+    box-sizing: border-box;
+    grid-template-columns: 428px 993px;
+
+}
+
+.box-secundario {
+    position: relative;
+    width: 428px;
+    height: 779px;
+
+    background: #FFFFFF;
+    border: 5px solid #5DFF11;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    padding: 25px;
+    color: #000000;
+
+}
+
+.box3 {
+    position: relative;
+    display: grid;
+    grid-template-rows: 176px 593px;
+    width: 994px;
+    height: 789px;
+    left: 427px;
+    bottom: 779px;
+    background: #FFFFFF;
+    border: 5px solid #231FFF;
+    box-sizing: border-box;
+
+}
+
+.box-sub {
+    position: relative;
+    width: 985px;
+    height: 176px;
+    background: #FFFFFF;
+    border: 5px solid #FF8A1F;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    padding: 55px;
+    color: #000000;
+}
+
+.box-contenido {
+    position: relative;
+    width: 985px;
+    height: 603px;
+    
+    background: #FFFFFF;
+    border: 5px solid #FF1FF6;
+    box-sizing: border-box;
+
+}
